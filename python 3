@@ -1,0 +1,9 @@
+# Number of rows i the pattern
+rows = 5
+
+# Outer loop for each row
+for i in range(1 , rows + 1):
+    # Inner loop for ech coloumn in the cureent row 
+    for j in range(1 , i + 1):
+        print( '*', end = '')
+    print()    # Move to the next line
